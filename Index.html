@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Edward</title>
+    <style>
+        /* CSS: El diseño profesional */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a; /* Fondo oscuro tipo programador */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #00ff00;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .tarjeta {
+            background-color: #262626;
+            padding: 20px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 400px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+            border: 1px solid #444;
+        }
+
+        h1 { color: #00ff00; margin: 0; }
+        h2 { color: #00d4ff; }
+        
+        strong {
+            color: #ff007f;
+            background: #331122;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 0.8em;
+            background: #111;
+            color: #666;
+        }
+
+        .boton {
+            display: inline-block;
+            background-color: #00d4ff;
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Edward-cat-code</h1>
+    </header>
+
+    <main>
+        <div class="tarjeta">
+            <h2>Mi Primer Proyecto</h2>
+            <p>Este sitio fue creado usando <strong>HTML y CSS</strong> fuera de la app Mimo.</p>
+            <p>Aprendiendo diseño responsivo desde mi celular.</p>
+            <a href="#" class="boton" onclick="alert('¡Pronto subiré más proyectos!')">Ver más</a>
+        </div>
+    </main>
+
+    <footer>
+        Hecho por John Edward García Suárez &copy; 2026
+    </footer>
+
+</body>
+</html>
